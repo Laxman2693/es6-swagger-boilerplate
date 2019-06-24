@@ -1,0 +1,14 @@
+{
+  "development": {
+    "db": "mongodb://localhost/es6swaggerboilerpate",
+    "baseURL": "http://localhost:3000"
+  },
+  "staging": {
+    "db": "mongodb://localhost/es6swaggerboilerpate",
+    "baseURL": "http://localhost:3000"
+  },
+  "production": {
+    "db": "mongodb://localhost/es6swaggerboilerpate",
+    "baseURL": "http://localhost:3000"
+  }
+}
