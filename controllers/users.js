@@ -48,7 +48,7 @@ const register = async (req, res) => {
         if (data) {
           const { email, role, _id, name } = data;
           requestVerificationInternal(data._id);
-          res.status(200).jsonp({ msg: 'Please check you email to verify your account.', data: { email, role, _id, name, privateKey, publicKey, address } });
+          res.status(200).jsonp({ msg: 'Please check you email to verify your account.', data: { email, role, _id, name} });
         }
     }
   } catch (err) {
